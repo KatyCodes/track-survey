@@ -12,7 +12,7 @@
       <h1>Chosing a track to study at Epicodus</h1>
       <p>So.... you've finally takin the plunge and you are a student at Epicodus! Congrats! You've made an excellent choice! Now the question remains, which track should you chose to study. Although most students find that they will need to learn other languages after they finish at Epicodus it's still important to pick a track that you feel will put your best foot forward.</p>
 
-      <form>
+      <form id="survey">
         <!--question1-->
         <h3>What was your favorite class while in highschool/college?</h3>
         <div class="radio">
@@ -98,19 +98,19 @@
         <h3>What is your favorite color?</h3>
         <div class="radio">
           <label>
-            <input type="radio"  name="q2"  value="nocolor" checked>
+            <input type="radio"  name="q4"  value="nocolor" checked>
             Color? Why is that a question on this survey? Who cares what color is my favorite?
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="q2" value="all">
+            <input type="radio" name="q4" value="all">
             I can hardly pick just one color, I love them all
           </label>
         </div>
         <div class="radio">
             <label>
-              <input type="radio" name="q2" value="play">
+              <input type="radio" name="q4" value="play">
               Show me the hex color picker and I'll put together a design board
             </label>
           </div>
@@ -119,23 +119,25 @@
         <h3>Where would you like to see your content displayed once you are a big time coder?</h3>
         <div class="radio">
           <label>
-            <input type="radio"  name="q2"  value="everywhere" checked>
+            <input type="radio"  name="q5"  value="everywhere" checked>
             EVERYWHERE! Mobile phones, tablets, big screens I want it all.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="q2" value="client">
+            <input type="radio" name="q5" value="client">
             On my client's webpage
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="q2" value="nowhere">
+            <input type="radio" name="q5" value="nowhere">
             No where, I want to work on backend projects.
           </label>
       <!--end of question 5-->
       </form>
+      <hr>
+      <button type="submit" class="btn-classic">Submit</button>
     </div>
   </body>
 </html>
