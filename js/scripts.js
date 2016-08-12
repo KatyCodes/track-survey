@@ -90,20 +90,20 @@ $(document).ready(function() {
       ruby += 1;
     }
     else if (answerq5 === "client"){
-      design += 2;
+      design += 200;
       php += 1;
     }
     else if (answerq5 === "nowhere"){
-      jva += 2;
+      jva += 1;
       php += 1;
-      csharp += 3;
+      csharp += 2;
       ruby += 3;
     }
 
     var result = ""
 
   if ((design>jva) && (design>php) && (design>csharp) && (design>ruby)){
-  $("#resultdesign").show();
+  $("#resultdesign").fadeIn("slow");
   $("#resultjva").hide();
   $("#resultphp").hide();
   $("#resultcsharp").hide();
@@ -111,7 +111,7 @@ $(document).ready(function() {
   $("#tryagain").hide();
   }
   else if((jva>design) && (jva>php) && (jva>csharp) && (jva>ruby)){
-  $("#resultjva").show();
+  $("#resultjva").fadeIn("slow");
   $("#resultdesign").hide();
   $("#resultphp").hide();
   $("#resultcsharp").hide();
@@ -119,7 +119,7 @@ $(document).ready(function() {
   $("#tryagain").hide();
   }
   else if((php>design) && (php>jva) && (php>csharp) && (php>ruby)){
-  $("#resultphp").show();
+  $("#resultphp").fadeIn("slow");
   $("#resultdesign").hide();
   $("#resultjva").hide();
   $("#resultcsharp").hide();
@@ -127,7 +127,7 @@ $(document).ready(function() {
   $("#tryagain").hide();
   }
   else if((csharp>design) && (csharp>jva) && (csharp>php) && (jva>ruby)){
-  $("#resultcsharp").show();
+  $("#resultcsharp").fadeIn("slow");
   $("#resultdesign").hide();
   $("#resultjva").hide();
   $("#resultphp").hide();
@@ -135,7 +135,7 @@ $(document).ready(function() {
   $("#tryagain").hide();
   }
   else if((ruby>design) && (ruby>jva) && (ruby>php) && (ruby>csharp)){
-  $("#resultruby").show();
+  $("#resultruby").fadeIn("slow");
   $("#resultdesign").hide();
   $("#resultjva").hide();
   $("#resultphp").hide();
@@ -143,7 +143,7 @@ $(document).ready(function() {
   $("#tryagain").hide();
   }
   else {
-    $("#tryagain").show();
+    $("#tryagain").fadeIn("slow");
     $("#resultruby").hide();
     $("#resultdesign").hide();
     $("#resultjva").hide();

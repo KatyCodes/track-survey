@@ -1,52 +1,115 @@
 #resultdesign {
   display: none;
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 200px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding: 30px;
+  background: linear-gradient(180deg, #02affe, white);
 }
-
 #resultjva {
   display: none;
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 200px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding: 30px;
+  background: linear-gradient(180deg, #02affe, white);
 }
-
 #resultphp {
   display: none;
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 200px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 3%;
+  padding: 30px;
+  background: linear-gradient(180deg, #02affe, white);
 }
-
 #resultcsharp {
   display: none;
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 200px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding: 30px;
+  background: linear-gradient(180deg, #02affe, white);
 }
-
 #resultruby {
   display: none;
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 200px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding: 30px;
+  background: linear-gradient(180deg, #02affe, white);
 }
-
 #tryagain {
   display: none;
+  border: 2px solid black;
+  max-width: 500px;
+  min-height: 200px;
+  float:right;
+  margin-right: 10%;
+  margin-top: 2%;
+  padding: 30px;
+  background: linear-gradient(180deg, #02affe, white);
 }
-
+body {
+  background: linear-gradient(180deg, #02affe, white, #fe5101);
+  background-repeat: no-repeat;
+  }
 .container-fluid {
-  padding: 75px;
+  padding: 15px;
   font-family: "palatino", serif;
-
+  margin: 100px;
+  background-color: white;
 }
 h1 {
   margin-bottom: 3px;
-  font-family: arial serif!important;
+  font-family: 'Droid serif', serif;
   text-align: center;
-  border-style: double;
-  border-width: 10px;
+  border-bottom: solid;
+  border-width: 5px;
+  border-top: solid;
+  border-color: black;
+  border-width: 5px;
   padding: 5px;
   font-size: 500%;
-}
+  background-color: #fe5101;
+  color: white;
+  text-shadow: 2px 2px black;
 
+}
 #introp {
   font-weight: bold;
   padding: 20px;
   font-size: 110%;
-
 }
-
-body {
-  background-image: url(../img/path.jpg);
-  }
 h3 {
   text-decoration: underline;
+  font-weight: bold;
+}
+label {
+  font-size: 110%;
+  font-weight: bold!important;
+}
+
+.imgresult {
+  padding: 20px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.radio:hover {
+  color:#fe5102;
 }
