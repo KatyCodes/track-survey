@@ -97,7 +97,7 @@ $(document).ready(function() {
     else if (answerq5 === "nowhere"){
       jva += 2;
       php += 1;
-      csharp += 1;
+      csharp += 3;
       ruby += 3;
     }
 
@@ -155,28 +155,3 @@ event.preventDefault();
   });
 
 });
-// var design = 0;
-// var jva = 0;
-// var php = 0;
-// var csharp = 0;
-// var ruby = 0;
-
-// if((trump>jill) && (trump>gary) && (trump>clinton)){
-//       result = "<h2>You should vote for Donald Trump!</h2>";
-//       result += "<a href='https://www.donaldjtrump.com/' target='_blank'><img src='img/trump.jpg'></a>"
-//     } else if ((gary>jill) && (gary>trump) && (gary>clinton)){
-//       result = "<h2>You should vote for Gary Johnson!</h2>";
-//       result += "<a href='https://www.johnsonweld.com/' target='_blank'><img src='img/gary.jpg'></a>"
-//     } else if ((jill>gary) && (jill>trump) && (jill>clinton)){
-//       result = "<h2>You should vote for Jill Stein!</h2>";
-//       result += "<a href='http://www.jill2016.com/' target='_blank'><img src='img/jill.png'></a>"
-//     } else if ((clinton>jill) && (clinton>trump) && (clinton>gary)){
-//       result = "<h2>You should vote for Hillary Clinton!</h2>";
-//       result += "<a href='https://www.hillaryclinton.com/' target='_blank'><img src='img/hillary.jpg'></a>"
-//     } else {
-//       result = "<h2>You're undecided! Do more research.</h2><div class='row'>";
-//       result += "<div class='col-sm-3'><a href='https://www.johnsonweld.com/' target='_blank'><img src='img/gary.jpg'></a></div>"
-//       result += "<div class='col-sm-3'><a href='https://www.hillaryclinton.com/' target='_blank'><img src='img/hillary.jpg'></a></div>"
-//       result += "<div class='col-sm-3'><a href='https://www.donaldjtrump.com/' target='_blank'><img src='img/trump.jpg'></a></div>"
-//       result += "<div class='col-sm-3'><a href='http://www.jill2016.com/' target='_blank'><img src='img/jill.png'></a></div></div>"
-//     }
