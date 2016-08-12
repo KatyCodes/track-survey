@@ -18,7 +18,7 @@ $(document).ready(function() {
     var ruby = 0;
 // question 1 results
     if (answerq1 === "art"){
-      design += 4;
+      design += 3;
     }
     else if (answerq1 === "science"){
       jva += 2;
@@ -65,9 +65,8 @@ $(document).ready(function() {
       php += 2;
     }
     else if (answerq3 === "anywhere"){
-       design += 1;
-       jva += 1;
-       php += 1;
+       design += 2;
+       jva += 2;
        csharp += 1;
        ruby += 1;
     }

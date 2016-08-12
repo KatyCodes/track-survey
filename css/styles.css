@@ -22,16 +22,31 @@
   display: none;
 }
 
-/*.container-fluid {
+.container-fluid {
   padding: 75px;
   font-family: "palatino", serif;
+
 }
 h1 {
-  margin-bottom: 30px;
-  font-family: impact;
-  text-decoration: underline;
+  margin-bottom: 3px;
+  font-family: arial serif!important;
+  text-align: center;
+  border-style: double;
+  border-width: 10px;
+  padding: 5px;
+  font-size: 500%;
 }
 
-p {
+#introp {
   font-weight: bold;
-}*/
+  padding: 20px;
+  font-size: 110%;
+
+}
+
+body {
+  background-image: url(../img/path.jpg);
+  }
+h3 {
+  text-decoration: underline;
+}
